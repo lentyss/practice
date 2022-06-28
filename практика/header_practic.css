@@ -1,0 +1,40 @@
+﻿html {
+    height: 100%;
+    
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #87ceeb;
+}
+
+.header-category {
+    display: flex;
+    font-size: 25px;
+    width: inherit;
+    font-family: Gill Sans, sans-serif;
+    padding: 10px 15px;
+}
+
+.header-category a {
+        text-decoration: none;
+        color: white;
+        margin-right: 170px;
+}
+.header-button {
+    margin-top: 21px;
+    margin-left: 350px;
+    font-size: 25px;
+    width: 180px;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-family: Gill Sans, sans-serif;
+}
+
+.header-button button {
+        display: flex;
+}
