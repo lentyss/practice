@@ -1,0 +1,25 @@
+﻿html {
+    height: 100%;
+    
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #58b1d4;
+}
+
+.header-category {
+    display: flex;
+    font-size: 25px;
+    width: inherit;
+    font-family: 'Roboto';
+    padding: 10px 15px;
+    margin-left: 800px;
+}
+
+.header-category a {
+        text-decoration: none;
+        color: white;
+        margin-right: 170px;
+}
