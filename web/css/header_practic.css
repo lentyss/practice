@@ -1,56 +1,79 @@
-﻿html {
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
     height: 100%;
-    
+    background-color: #ECE7E4;
 }
 
-/*,
-*::before,
-*::after{
-    box-sizing:border-box;
-}
-
-ul[class],
-ol[class] {
-    padding: 0px;
-}*/
 header {
     display: flex;
-    background-color: #58b1d4;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.name-image img {
+    width: 80px;
+    height: 80px;
+    margin-left: 60px;
+    padding: 10px 10px;
 }
 
 .header-category  {
-    justify-content: left;
     display: flex;
-    font-size: 35px;
-    width: inherit;
-    
-    padding: 10px 10px;
+    font-size: 25px;
+    width: inherit;  
+    padding: 35px 35px;
 }
 
 .header-category a {
     text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header-button {
+    font-size: 20px;
+    width: 130px;
+    height: 40px;
     color: white;
-    margin-left: 100px;
+    background-color: black;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
-.name-image img {
-    justify-content: left;
-    width: 95px;
-    height: 95px;
-    margin-left: 100px;
+.i1-field img{
+    width: 350px;
+    height: 350px;
+    float: right;
+    padding: 0px 30px;
 }
 
+.name1-field {
+    font-size: 40px;
+    padding: 0px 150px;
+    margin-top: 30px;
+}
+/*  
+.contact-image li {
+    display: inline-block;
+}
 
 .contact-image img{
     display: flex;
     justify-content: right;
-    width: 95px;
-    height: 95px;
+    width: 55px;
+    height: 55px;
     margin-right: 0px;
-    margin-left: 500px;
+    margin-left: 50px;
     padding: 10px 10px;
+    
 }
-/*.header-category {
+.header-category {
     display: flex;
     margin-right: 40px;
 }
